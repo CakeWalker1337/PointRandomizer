@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Point Randomizer</string>
+    <string name="point_name">Input point name</string>
+    <string name="point_location">Input point location</string>
+</resources>

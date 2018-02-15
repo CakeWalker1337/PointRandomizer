@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.maxim.pointrandomizer.MainActivity">
+
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal">
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/add_points_button"
+            android:layout_gravity="center"
+            android:text="Add point"
+            android:textSize="16sp"
+            android:onClick="addPoint_click"
+            android:textColor="@color/colorText"
+            android:background="@drawable/button_style"/>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/open_locations_button"
+            android:layout_gravity="center"
+            android:text="open locations"
+            android:onClick="openLocations_click"
+            android:textColor="@color/colorText"
+            android:textSize="16sp"
+            android:background="@drawable/button_style"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Point name"
+        android:textSize="20sp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="260dp"
+        android:background="@drawable/textview_style"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:textColor="@color/colorButton"
+        android:textAlignment="center"
+        android:id="@+id/point_name_textview"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Point location"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="260dp"
+        android:background="@drawable/textview_style"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorButton"
+        android:textAlignment="center"
+        android:padding="20dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/point_location_textview"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:layout_height="80dp"
+        android:layout_width="230dp"
+        android:background="@drawable/button_style"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:text = "RANDOMIZE"
+        android:textSize="28sp"
+        android:onClick="randomize_click"
+        android:textColor="@color/colorText"
+        android:layout_marginBottom="60dp"/>
+
+
+</LinearLayout>
