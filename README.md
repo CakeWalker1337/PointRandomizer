@@ -6,8 +6,8 @@ You can use it for everything, for example, for "lucky coin" (yes or no), for ch
 ## Screenshots
 
 ![alt text](https://raw.github.com/CakeWalker1337/PointRandomizer/master/github/screenshots/11.jpg)
-![alt text1](https://raw.github.com/CakeWalker1337/PointRandomizer/master/github/screenshots/11.jpg)
-![alt text2](https://raw.github.com/CakeWalker1337/PointRandomizer/master/github/screenshots/11.jpg)
+![alt text1](https://raw.github.com/CakeWalker1337/PointRandomizer/master/github/screenshots/22.jpg)
+![alt text2](https://raw.github.com/CakeWalker1337/PointRandomizer/master/github/screenshots/33.jpg)
 
 
 ## Other information
